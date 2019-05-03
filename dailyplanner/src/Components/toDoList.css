@@ -1,0 +1,198 @@
+@media only screen and (min-width: 990px) {
+  .todos {
+    height: 50px;
+    font-size: 35px;
+    letter-spacing: 2px;
+    border: 2px solid black;
+    border-radius: 25px;
+    background-color: yellow;
+    padding: 5px 5px 5px 0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: black;
+  }
+
+  .done {
+    height: 50px;
+    font-size: 30px;
+    letter-spacing: 2px;
+    border: 2px solid yellow;
+    border-radius: 25px 0px 0px 25px;
+    background-color: blue;
+    color: yellow;
+    cursor: pointer;
+  }
+  .done:hover {
+    border: 2px solid black;
+    border-radius: 25px 0px 0px 25px;
+    background-color: red;
+    color: yellow;
+  }
+
+  .delete {
+    height: 50px;
+    font-size: 30px;
+    letter-spacing: 2px;
+    border: 2px solid yellow;
+    border-radius: 0px 25px 25px 0px;
+    background-color: blue;
+    color: yellow;
+    float: right;
+    cursor: pointer;
+  }
+  .delete:hover {
+    border: 2px solid black;
+    border-radius: 0px 25px 25px 0px;
+    background-color: red;
+    color: yellow;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  .todos {
+    height: 40px;
+    font-size: 25px;
+    letter-spacing: 2px;
+    border: 2px solid black;
+    border-radius: 25px;
+    background-color: yellow;
+    padding: 5px 5px 5px 0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: black;
+  }
+
+  .done {
+    height: 40px;
+    font-size: 30px;
+    letter-spacing: 2px;
+    border: 2px solid yellow;
+    border-radius: 25px 0px 0px 25px;
+    background-color: blue;
+    color: yellow;
+    cursor: pointer;
+  }
+  .done:hover {
+    border: 2px solid black;
+    border-radius: 25px 0px 0px 25px;
+    background-color: red;
+    color: yellow;
+  }
+
+  .delete {
+    height: 40px;
+    font-size: 30px;
+    letter-spacing: 2px;
+    border: 2px solid yellow;
+    border-radius: 0px 25px 25px 0px;
+    background-color: blue;
+    color: yellow;
+    float: right;
+    cursor: pointer;
+  }
+  .delete:hover {
+    border: 2px solid black;
+    border-radius: 0px 25px 25px 0px;
+    background-color: red;
+    color: yellow;
+  }
+}
+@media only screen and (min-width: 400px) {
+  .todos {
+    height: 35px;
+    font-size: 15px;
+    letter-spacing: 2px;
+    border: 2px solid black;
+    border-radius: 25px;
+    background-color: yellow;
+    padding: 5px 5px 5px 0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: black;
+  }
+
+  .done {
+    height: 35px;
+    font-size: 25px;
+    letter-spacing: 2px;
+    border: 2px solid yellow;
+    border-radius: 25px 0px 0px 25px;
+    background-color: blue;
+    color: yellow;
+    cursor: pointer;
+  }
+  .done:hover {
+    border: 2px solid black;
+    border-radius: 25px 0px 0px 25px;
+    background-color: red;
+    color: yellow;
+  }
+
+  .delete {
+    height: 35px;
+    font-size: 25px;
+    letter-spacing: 2px;
+    border: 2px solid yellow;
+    border-radius: 0px 25px 25px 0px;
+    background-color: blue;
+    color: yellow;
+    float: right;
+    cursor: pointer;
+  }
+  .delete:hover {
+    border: 2px solid black;
+    border-radius: 0px 25px 25px 0px;
+    background-color: red;
+    color: yellow;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .todos {
+    height: 30px;
+    font-size: 15px;
+    letter-spacing: 2px;
+    border: 2px solid black;
+    border-radius: 25px;
+    background-color: yellow;
+    padding: 10px 5px 5px 0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    overflow: auto;
+    color: black;
+  }
+
+  .done {
+    height: 30px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    border: 2px solid yellow;
+    border-radius: 25px 0px 0px 25px;
+    background-color: blue;
+    color: yellow;
+    cursor: pointer;
+  }
+  .done:hover {
+    border: 2px solid black;
+    border-radius: 25px 0px 0px 25px;
+    background-color: red;
+    color: yellow;
+  }
+
+  .delete {
+    height: 30px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    border: 2px solid yellow;
+    border-radius: 0px 25px 25px 0px;
+    background-color: blue;
+    color: yellow;
+    float: right;
+    cursor: pointer;
+  }
+  .delete:hover {
+    border: 2px solid black;
+    border-radius: 0px 25px 25px 0px;
+    background-color: red;
+    color: yellow;
+  }
+}
